@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sticky Menü</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 </head>
 <body>
@@ -35,7 +37,7 @@
                 slider.append(buttonText, svgCode);
 
                 var icon = $('<div class="icon"></div>');
-                var iconElement = $('<i class="fa"></i>').addClass(veri.icon);
+                var iconElement = $('<i>').addClass('fa ' + veri.icon);
                 icon.append(iconElement);
 
                 header.append(logo, slider, icon);
