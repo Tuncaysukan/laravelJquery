@@ -33,8 +33,8 @@
 
                 var slider = $('<div class="slider"></div>');
                 var buttonText = $('<p></p>').text(veri.button_text);
-                var svgCode = $('<p></p>').text(veri.svg_code);
-                slider.append(buttonText, svgCode);
+                //var svgCode = $('<p></p>').text(veri.svg_code);
+                slider.append(buttonText);
 
                 var icon = $('<div class="icon"></div>');
                 var iconElement = $('<i>').addClass('fa ' + veri.icon);
